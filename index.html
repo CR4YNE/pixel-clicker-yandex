@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Куча Пряников: Кликер</title>
+  <style>
+    html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+    body { display: flex; align-items: center; justify-content: center; }
+    canvas {
+      image-rendering: pixelated;
+      image-rendering: crisp-edges;
+      touch-action: none;
+      user-select: none;
+      -webkit-user-select: none;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="game"></canvas>
+  <script src="src/font-data.js?v=5"></script>
+  <script src="src/game.js?v=272"></script>
+</body>
+</html>
